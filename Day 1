@@ -1,0 +1,63 @@
+# Day 01 – Java Fundamentals
+
+## 1. Java History
+Java was developed by James Gosling at Sun Microsystems in 1995.
+It was designed to be platform-independent and object-oriented.
+Later, Sun Microsystems was acquired by Oracle, which now maintains Java.
+
+---
+
+## 2. What is a Programming Language?
+A programming language is a formal language used to communicate instructions
+to a computer in order to perform specific tasks and solve problems.
+
+---
+
+## 3. Types of Programming Languages
+
+### 3.1 Procedural Programming Language
+Focuses on procedures or functions.
+Example: C
+
+### 3.2 Object-Oriented Programming Language
+Focuses on objects and classes.
+Example: Java
+
+### 3.3 Functional Programming Language
+Focuses on functions and immutability.
+Example: Haskell
+
+### 3.4 Scripting Language
+Used for automation and scripting.
+Example: Python
+
+---
+
+## 4. Java Boilerplate Code
+
+### Static Boilerplate
+In Java, program execution starts from the `main` method which must be static.
+This allows the JVM to call the method without creating an object.
+ 
+public static void main(String[] args)
+First Java Program : 
+
+o class keyword is used to declare a class in Java.
+
+o public keyword is an access modifier that represents visibility. It means it is
+visible to all.
+
+o static is a keyword. If we declare any method as static, it is known as the static
+method. The core advantage of the static method is that there is no need to create
+an object to invoke the static method. The main() method is executed by the JVM,
+so it doesn't require creating an object to invoke the main() method. So, it saves
+memory.
+
+o void is the return type of the method. It means it doesn't return any value.
+
+o main represents the starting point of the program.
+
+o String[] args or String args[] is used for command line argument.
+
+o System.out.println() is used to print statement. Here, System is a class, out is an
+object of the PrintStream class, println() is a method of the PrintStream class
